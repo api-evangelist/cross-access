@@ -1,8 +1,23 @@
 aid: cross-access
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cross-access.png
 name: Cross Access
-description: Cross Access is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Cross Access was a data-integration software company backed by Battery Ventures that was
+  acquired by IBM on 2003-10-17 and folded into IBM's information-integration portfolio. It is defunct
+  and has no independent web presence, developer portal, API, or documentation surface today; DNS for
+  candidate domains (crossaccess.com, cross-access.com, crossaccess.io) does not resolve. This profile
+  is retained as a historical Battery Ventures portfolio record, not an active API provider, and there
+  are no live artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/cross-access/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ibm
+x-acquired-date: '2003-10-17'
+x-defunct: true
+x-enrichment-result: no-live-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Integration
+- Enterprise Software
+- Acquired
+- Defunct
+- Battery Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
