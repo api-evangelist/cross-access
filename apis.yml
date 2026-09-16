@@ -36,14 +36,14 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: ibm
 x-acquired-date: '2003-10-17'
 x-defunct: true
 x-enrichment-result: no-live-surface
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Data Integration
